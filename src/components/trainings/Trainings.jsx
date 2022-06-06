@@ -102,6 +102,11 @@ const Trainings = () => {
                   <td>admin67</td>
                   <td>admin67MTDD$</td>
                 </tr>
+                <tr>
+                  <td>Solfinanzas</td>
+                  <td>admin71</td>
+                  <td>admin7160SG&</td>
+                </tr>
               </table>
             </div>
       </div>
