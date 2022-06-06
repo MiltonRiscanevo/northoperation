@@ -1,0 +1,9 @@
+th{
+    font-size: 15px;
+    text-align: center;
+    border: solid 1px black;
+    margin: 0 10px;
+}
+.data_information{
+    display: flex;
+}
