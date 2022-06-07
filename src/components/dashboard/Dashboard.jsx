@@ -12,6 +12,8 @@ const Dashboard = () => {
                     <div>
                         Entidad:{item.Entidad}
                         <br />
+                        Tipo: {item.TipoCapacitacion}
+                        <br />
                         Tipo Capacitacion: Secretaria
                         <br />
                         Fecha:{item.Fecha}
