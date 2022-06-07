@@ -1,8 +1,9 @@
 import React from 'react'
 import Logo from '../images/northway.png'
+import './header.css'
 const Header = () => {
   return (
-    <div style={{display:'flex', justifyContent: 'space-around', margin:'20px'}}>
+    <div className='header'>
         <img src={Logo} alt="" />
         <h1>North Operations</h1>
     </div>

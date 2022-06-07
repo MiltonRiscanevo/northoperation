@@ -10,7 +10,7 @@ const Trainings = () => {
         <h3>Capacitaciones pagadurias</h3>
         <a href="http://40.90.221.254/SygnusHumano/ " target='_blank'>Ambiente de prueba</a>
         <h4>Usuarios de ambiente</h4>
-        <div>
+        <div className='table_info'>
           <table>
             <tr>
               <th>Tipo</th>

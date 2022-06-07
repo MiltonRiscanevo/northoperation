@@ -3,6 +3,7 @@
     justify-content:space-evenly;
     align-items: center;
 }
+
 .type_User{
     width: 33%;
     min-height: 350px;
@@ -16,4 +17,28 @@
 }
 td{
     border-bottom: solid 1px #000000;
+}
+
+@media screen and (max-width:600px) {
+    .trainer_containt{
+        flex-direction: column;
+        
+       
+    }
+    .sub_table{
+        width: 90%;
+        
+    }
+    .type_User{
+        width: 70%;
+        min-height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .table_info{
+        margin: 4px;
+        padding: 5px;
+    }
 }

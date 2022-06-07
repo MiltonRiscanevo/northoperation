@@ -11,3 +11,8 @@
     background-color: #c3c6c432;
     border-radius: 10%;
 }
+@media screen and (max-width:600px) {
+    .container_dash{
+        flex-direction: column;
+    }
+}

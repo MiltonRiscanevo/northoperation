@@ -37,3 +37,20 @@
       transition: linear;
     }
   }
+@media screen and (max-width:600px){
+  .navbar_container{
+    display: none;
+  }
+  .nav_responsive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .buttons_navbar{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+  }
+}
